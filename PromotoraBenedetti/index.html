@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Promotora I. Benedetti SAS - Soluciones inmobiliarias integrales con tradición y visión de futuro">
+    <meta name="keywords" content="inmobiliaria, alquiler, gestión de propiedades, arrendamiento, Colombia">
+    <meta name="author" content="Promotora I. Benedetti SAS">
+    
+    <!-- Preconexión para mejorar rendimiento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Preload para recursos críticos -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+        <link rel="stylesheet" href="styles.css">
+    </noscript>
+    
+    <!-- Favicon (reemplaza con tus propios archivos) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    
+    <title>Promotora I. Benedetti SAS </title>
+    
+    <!-- Schema.org para SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Promotora I. Benedetti SAS",
+      "image": "https://www.tudominio.com/assets/logo-blanco.png",
+      "@id": "",
+      "url": "https://www.tudominio.com",
+      "telephone": "+573124562536",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cra 4 No 8-237",
+        "addressLocality": "Bogotá",
+        "addressRegion": "Cundinamarca",
+        "postalCode": "110321",
+        "addressCountry": "CO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 4.753722441055967,
+        "longitude": -74.0729267240199
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/tupagina",
+        "https://www.instagram.com/tucuenta",
+        "https://www.linkedin.com/company/tuempresa"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <header class="header" role="banner">
+        <nav class="navbar" aria-label="Navegación principal">
+            <div class="logo">
+                <a href="#inicio" aria-current="page">
+                    <img src="assets/img/logo blanco.png" alt="Promotora I. Benedetti SAS - Inicio" class="logo-img">
+                </a>
+            </div>
+            
+            <button class="hamburger" aria-label="Menú" aria-expanded="false" aria-controls="nav-links">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio" class="nav-link" aria-current="page">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Nuestros Valores</a></li>
+                <li><a href="#grupo" class="nav-link">Grupo Empresarial</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+<section id="inicio" class="hero section dark-background" aria-labelledby="hero-heading">
+    <div class="hero-background"></div>
+    
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-in">
+                <p>PROMOTORA I. BENEDETTI S A S</p>
+                <h1 id="hero-heading">En la quietud de la labor persistente, el trabajo todo lo vence.</h1>
+                <p>Unidad <span>·</span> Tradicion <span>·</span> Futuro </p>
+                <div class="hero-cta">
+                    <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="100">
+                <img src="assets/img/casa.jpg" alt="Propiedad de la empresa" loading="eager" class="hero-img">
+            </div>
+        </div>
+    </div>
+    
+    <div class="hero-waves" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+            <defs>
+                <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+            </defs>
+            <g class="wave1">
+                <use xlink:href="#wave-path" x="50" y="3"></use>
+            </g>
+            <g class="wave2">
+                <use xlink:href="#wave-path" x="50" y="0"></use>
+            </g>
+            <g class="wave3">
+                <use xlink:href="#wave-path" x="50" y="9"></use>
+            </g>
+        </svg>
+    </div>
+</section>
+
+    <!-- Sección de Valores -->
+<section id="servicios" class="services section" aria-labelledby="services-heading">
+    <div class="section-header">
+        <h2 id="services-heading">Nuestros Valores</h2>
+        <p class="section-subtitle">Al establecer y comunicar estos valores, la organización familiar se fortalecerá, creciendo en su unión interna y en su tradición.</p>
+    </div>
+    
+    <div class="services-container">
+        <article class="service-card" aria-labelledby="service1-heading">
+            <div class="service-icon" aria-hidden="true">
+                <i class="fas fa-medal" role="img" aria-label="Icono de medalla de calidad"></i>
+            </div>
+            <h3 id="service1-heading">Compromiso con la Calidad</h3>
+            <p>Mantener los más altos niveles de calidad en nuestros Bienes y Servicios, asegurando la satisfacción de todos nuestros Socios y la reputación de la empresa.</p>
+            <a href="#contacto" class="service-link">Más información <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+        
+        <article class="service-card" aria-labelledby="service2-heading">
+            <div class="service-icon" aria-hidden="true">
+                <i class="fas fa-seedling" role="img" aria-label="Icono de crecimiento e innovación"></i>
+            </div>
+            <h3 id="service2-heading">Tradición e Innovación</h3>
+            <p>Valorar y Fomentar las tradiciones familiares, mientras se busca constantemente el crecimiento, la innovación y la mejora, adaptándose a los cambios en nuestras vida y las necesidades de la Familia.</p>
+            <a href="#contacto" class="service-link">Más información <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+        
+        <article class="service-card" aria-labelledby="service3-heading">
+            <div class="service-icon" aria-hidden="true">
+                <i class="fas fa-handshake" role="img" aria-label="Icono de compromiso"></i>
+            </div>
+            <h3 id="service3-heading">Compromiso a Largo Plazo</h3>
+            <p>Adoptar una visión a largo plazo que garantice la continuidad y el legado de la estructura familiar, priorizando las decisiones que beneficien tanto a la organización, como a la familia.</p>
+            <a href="#contacto" class="service-link">Más información <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </article>
+    </div>
+</section>
+
+    <!-- Sección Grupo Empresarial  -->
+<section id="grupo" class="group section" aria-labelledby="group-heading">
+    <div class="map-background" aria-hidden="true"></div>
+    
+    <div class="section-header">
+        <h2 id="group-heading">Grupo Promotora I. Benedetti S A S</h2>
+        <p class="section-subtitle">Estas son las empresas que componen el Grupo Promotora, comprometidas con el desarrollo y progreso.</p>
+    </div>
+    
+    <div class="companies-container">
+        <article class="company-card" aria-labelledby="company1-heading">
+            <div class="company-icon" aria-hidden="true">
+                <i class="fas fa-globe" role="img" aria-label="Icono global"></i>
+            </div>
+            <h3 id="company1-heading">Camena WorldWide Corporation, Inc.</h3>
+            <p>Empresa Panameña.</p>
+        </article>
+        
+        <article class="company-card" aria-labelledby="company2-heading">
+            <div class="company-icon" aria-hidden="true">
+                <i class="fas fa-chart-line" role="img" aria-label="Icono de crecimiento"></i>
+            </div>
+            <h3 id="company2-heading">Caribe Capital Enterprises, Inc.</h3>
+            <p>Empresa Panameña.</p>
+        </article>
+        
+        <article class="company-card" aria-labelledby="company3-heading">
+            <div class="company-icon" aria-hidden="true">
+                <i class="fas fa-hands-helping" role="img" aria-label="Icono de ayuda"></i>
+            </div>
+            <h3 id="company3-heading">Omnia Vincit Labor Foundation</h3>
+            <p>Fundación dedicada a proyectos.</p>
+        </article>
+        
+        <article class="company-card" aria-labelledby="company4-heading">
+            <div class="company-icon" aria-hidden="true">
+                <i class="fa-solid fa-city"></i>
+            </div>
+            <h3 id="company4-heading">Inversiones Camelia SAS</h3>
+            <p>Empresa inmobiliaria ubicada en la ciudad de Cartagena.</p>
+        </article>
+        
+        <article class="company-card" aria-labelledby="company5-heading">
+            <div class="company-icon" aria-hidden="true">
+                <i class="fa-solid fa-building"></i>
+            </div>
+            <h3 id="company5-heading">Inversiones Asocana SAS</h3>
+            <p>Empresa inmobiliaria ubicada en la ciudad de Cartagena.</p>
+        </article>
+    </div>
+</section>
+
+    <!-- Sección Nosotros  -->
+<section id="nosotros" class="about section" aria-labelledby="about-heading">
+    <div class="about-container">
+        <div class="about-content">
+            <div class="section-header">
+                <h2 id="about-heading">Nuestra Historia</h2>
+                <p class="section-subtitle">Tradición familiar, visión empresarial</p>
+            </div>
+            
+            <div class="about-text">
+                <p>Fundada en 1997 por Ignacio Benedetti Franco, <strong>Promotora I. Benedetti SAS</strong> nació como un proyecto familiar con profundas raíces en la región y una clara visión de crecimiento. Lo que comenzó como una pequeña empresa local, hoy es un referente en el sector inmobiliario.</p>
+                
+                <p>Nuestro crecimiento ha sido guiado por valores fundamentales que nos distinguen:</p>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="1997">0</span>+
+                        <span class="stat-label">Año de Fundación</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="05">0</span>+
+                        <span class="stat-label">Mes</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="13">0</span>+
+                        <span class="stat-label">Día</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div class="about-media">
+        <div class="about-carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/equipo.jpg" alt="Equipo trabajando" loading="lazy">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/empresarios.jpg" alt="Oficinas" loading="lazy">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/plano.jpg" alt="Proyecto completado" loading="lazy">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button class="indicator active" aria-label="Ir a imagen 1"></button>
+                <button class="indicator" aria-label="Ir a imagen 2"></button>
+                <button class="indicator" aria-label="Ir a imagen 3"></button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+    <!-- Sección Contacto  -->
+<section id="contacto" class="contact section" aria-labelledby="contact-heading">
+    <div class="section-header">
+        <h2 id="contact-heading">Contáctanos</h2>
+        <p class="section-subtitle">Estamos aquí para ayudarte</p>
+    </div>
+    
+    <div class="contact-container">
+        <form class="contact-form" id="contact-form" aria-labelledby="contact-form-heading">
+            <h3 id="contact-form-heading" class="form-title">Escríbenos</h3>
+            
+            <div class="form-group">
+                <label for="name" class="visually-hidden">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Nombre completo" required aria-required="true">
+                <i class="fas fa-user" aria-hidden="true"></i>
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="visually-hidden">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Correo electrónico" required aria-required="true">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone" class="visually-hidden">Teléfono (opcional)</label>
+                <input type="tel" id="phone" name="phone" placeholder="Teléfono (opcional)">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+            </div>
+            
+            <div class="form-group">
+                <label for="message" class="visually-hidden">Mensaje</label>
+                <textarea id="message" name="message" placeholder="Tu mensaje" required aria-required="true"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">
+                <span class="btn-text">Enviar Mensaje</span>
+                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+            </button>
+            
+            <div class="form-status" aria-live="polite"></div>
+        </form>
+        
+        <div class="contact-info" aria-labelledby="contact-info-heading">
+            <h3 id="contact-info-heading" class="info-title">Información de contacto</h3>
+            
+            <div class="info-item">
+                <div class="info-icon" aria-hidden="true">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Oficina Principal</h4>
+                    <address>Cra 4 No 8-237, Cartagena, Colombia</address>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-icon" aria-hidden="true">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Teléfonos</h4>
+                    <p>
+                        <a href="tel:+573124562536">+57 312 4562536</a><br>
+                        <a href="tel:+5712345678">+57 1 2345678</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-icon" aria-hidden="true">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Correo Electrónico</h4>
+                    <p>
+                        <a href="mailto:contacto@benedetti.com">contacto@benedetti.com</a><br>
+                        <a href="mailto:mailto@benedetti.com">mailto@benedetti.com</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-icon" aria-hidden="true">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div class="info-content">
+                    <h4>Horario de Atención</h4>
+                    <p>
+                        Lunes a Viernes: 7:00 am - 5:00 pm<br>
+                        Sábados: 8:00 am - 12:00 pm
+                    </p>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.185067373061!2d-74.0729267240199!3d4.753722441055967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8457b1de5e1f%3A0x1a1a1a1a1a1a1a1a!2sCra.%204%20%238-237%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1620000000000!5m2!1ses!2sco" 
+                    width="100%" 
+                    height="220" 
+                    style="border:0; border-radius: 8px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    title="Ubicación de Promotora I. Benedetti SAS"
+                    aria-label="Mapa mostrando la ubicación de la oficina principal">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <a href="#inicio" aria-label="Ir al inicio">
+                        <img src="assets/img/logo blanco.png" alt="Promotora I. Benedetti SAS" loading="lazy" width="200" height="70">
+                    </a>
+                </div>
+                <p class="footer-motto">Unidos por la tradición, comprometidos con el futuro.</p>
+                
+                <div class="social-links">
+                    <h4 class="visually-hidden">Síguenos en redes sociales</h4>
+                    <ul>
+                        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3 class="footer-heading">Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#valores">Nuestros Valores</a></li>
+                    <li><a href="#grupo">Grupo Empresarial</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3 class="footer-heading">Empresas del Grupo Promotora</h3>
+                <ul class="footer-links">
+                    <li><a href="#empresas">Camena WorldWide Corporation, Inc</a></li>
+                    <li><a href="#empresas">Caribe Capital Enterprises, Inc</a></li>
+                    <li><a href="#empresas">Omnia Vincit Labor Foundation</a></li>
+                    <li><a href="#empresas">Inversiones Camelia SAS</a></li>
+                    <li><a href="#empresas">Inversiones Asocana SAS</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3 class="footer-heading">Contacto</h3>
+                <address class="footer-address">
+                    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Cra 4 No 8-237, Cartagena, Colombia</p>
+                    <p><i class="fas fa-phone-alt" aria-hidden="true"></i> <a href="tel:+573124562536">+57 312 4562536</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:contabilidad@cameliasas.com">contabilidad@cameliasas.com</a></p>
+                </address>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-legal">
+                <p>&copy; <span id="current-year">2025</span> Promotora I. Benedetti SAS. Todos los derechos reservados.</p>
+                <ul class="legal-links">
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                    <li><a href="#">Aviso Legal</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botones Flotantes -->
+    <div class="float-buttons">
+        <a href="https://wa.me/573122948228" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contáctanos por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        
+        <button class="back-to-top" aria-label="Volver arriba">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Cargar CSS no crítico de forma asíncrona
+        function loadCSS(href) {
+            const link = document.createElement('link');
+            link.href = href;
+            link.rel = 'stylesheet';
+            document.head.appendChild(link);
+        }
+        
+        // Cargar scripts de forma diferida
+        function loadScript(src, async = true, defer = true) {
+            const script = document.createElement('script');
+            script.src = src;
+            script.async = async;
+            script.defer = defer;
+            document.body.appendChild(script);
+        }
+        
+        // Ejecutar después de que el DOM esté cargado
+        document.addEventListener('DOMContentLoaded', function() {
+            // Actualizar año en el footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+            
+            // Menú hamburguesa
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            
+            hamburger.addEventListener('click', function() {
+                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', !isExpanded);
+                navLinks.classList.toggle('active');
+            });
+            
+            // Cerrar menú al hacer clic en enlace
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.setAttribute('aria-expanded', 'false');
+                    navLinks.classList.remove('active');
+                });
+            });
+            
+            // Scroll suave
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        
+                        // Actualizar URL sin recargar la página
+                        if (history.pushState) {
+                            history.pushState(null, null, targetId);
+                        } else {
+                            location.hash = targetId;
+                        }
+                    }
+                });
+            });
+            
+            // Animación al hacer scroll
+            const fadeElements = document.querySelectorAll('.service-card, .company-card, .about-content, .testimonial-card, .contact-form, .contact-info');
+            
+            const fadeInOnScroll = function() {
+                fadeElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (elementTop < windowHeight - 100) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                });
+            };
+            
+            // Estado inicial
+            fadeElements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+            
+            // Contador de estadísticas
+            const statNumbers = document.querySelectorAll('.stat-number');
+            
+            const animateCounters = function() {
+                statNumbers.forEach(stat => {
+                    const target = parseInt(stat.getAttribute('data-count'));
+                    const duration = 2000; // 2 segundos
+                    const step = target / (duration / 16); // 60fps
+                    let current = 0;
+                    
+                    const counter = setInterval(() => {
+                        current += step;
+                        if (current >= target) {
+                            stat.textContent = target + (stat.getAttribute('data-count').includes('+') ? '+' : '');
+                            clearInterval(counter);
+                            return;
+                        }
+                        stat.textContent = Math.floor(current);
+                    }, 16);
+                });
+            };
+            
+            // Observer para animaciones
+            const observerOptions = {
+                threshold: 0.1
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (entry.target.classList.contains('about-stats')) {
+                            animateCounters();
+                        }
+                        entry.target.classList.add('animated');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            
+            document.querySelectorAll('.service-card, .company-card, .about-stats, .testimonial-card').forEach(el => {
+                observer.observe(el);
+            });
+            
+            // Botón volver arriba
+            const backToTopButton = document.querySelector('.back-to-top');
+            
+            window.addEventListener('scroll', function() {
+                fadeInOnScroll();
+                
+                if (window.pageYOffset > 300) {
+                    backToTopButton.style.visibility = 'visible';
+                    backToTopButton.style.opacity = '1';
+                } else {
+                    backToTopButton.style.visibility = 'hidden';
+                    backToTopButton.style.opacity = '0';
+                }
+            });
+            
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Formulario de contacto
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const formStatus = this.querySelector('.form-status');
+                    
+                    // Simular envío (reemplazar con AJAX real)
+                    formStatus.textContent = 'Enviando mensaje...';
+                    formStatus.style.color = '#333';
+                    
+                    setTimeout(() => {
+                        formStatus.textContent = '¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.';
+                        formStatus.style.color = 'green';
+                        contactForm.reset();
+                    }, 1500);
+                });
+            }
+        });
+        
+        // Cargar recursos externos
+        loadCSS('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+        loadCSS('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        // Cargar scripts adicionales si son necesarios
+        if (window.matchMedia('(min-width: 768px)').matches) {
+            loadScript('https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js');
+        }
+    </script>
+</body>
+</html>
